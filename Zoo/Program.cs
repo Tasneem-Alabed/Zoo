@@ -1,4 +1,4 @@
-﻿namespace Zoo
+namespace Zoo
 {
     internal class Program
     {
