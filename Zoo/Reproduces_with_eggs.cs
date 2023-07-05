@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,5 +52,9 @@ namespace Zoo
             Console.WriteLine($"{Name} makr sound");
         }
 
+        public void IPreys_on()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

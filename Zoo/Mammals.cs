@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,6 +53,11 @@ namespace Zoo
         public override void Sound()
         {
             Console.WriteLine($"{Name} makr sound");
+        }
+
+        public void IMigrate()
+        {
+            throw new NotImplementedException();
         }
     }
 }

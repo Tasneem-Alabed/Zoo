@@ -1,4 +1,7 @@
+using System.Net;
 using Zoo;
+
+
 
 
 
@@ -50,5 +53,20 @@ namespace TestProject1
             bird.Name = "sozi";
             Assert.Equal("sozi", bird.Name);
         }
+        [Fact]
+        public void Test7()
+        {
+            Reproduces_with_eggs bird = new Bird();
+           bool result= bird.IPreys_on();
+            Assert.True(result);
+        }
+        [Fact]
+        public void Test8()
+        {
+            Mammals dog = new Dog();
+            bool result = dog.IMigrate();
+            Assert.True(result);
+        }
+
     }
 }
