@@ -9,6 +9,6 @@ namespace Zoo.Interface
     public  interface Ipreys_on
     {
        
-        bool IPreys_on();
+       public bool IPreys_on();
     }
 }

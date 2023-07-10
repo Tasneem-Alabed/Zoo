@@ -8,6 +8,6 @@ namespace Zoo.Interface
 {
     public interface Imigrate
     {
-        bool IMigrate();
+       public bool IMigrate();
     }
 }

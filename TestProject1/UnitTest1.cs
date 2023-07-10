@@ -1,4 +1,5 @@
 using System.Net;
+using Zoo.Interface;
 using Zoo;
 
 
@@ -56,14 +57,14 @@ namespace TestProject1
         [Fact]
         public void Test7()
         {
-            Reproduces_with_eggs bird = new Bird();
-           bool result= bird.IPreys_on();
+           Bird bird = new Bird();
+            bool result = bird.IPreys_on();
             Assert.True(result);
         }
         [Fact]
         public void Test8()
         {
-            Mammals dog = new Dog();
+            Dog dog = new Dog();
             bool result = dog.IMigrate();
             Assert.True(result);
         }
